@@ -27,5 +27,19 @@
     "@types/node": "^18.16.2",
     "@types/react": "^18.2.0",
     "typescript": "^5.0.4"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": false,
+    "overrides": [
+      {
+        "files": [
+          "**/*package.json"
+        ],
+        "options": {
+          "trailingComma": "none"
+        }
+      }
+    ]
   }
 }
